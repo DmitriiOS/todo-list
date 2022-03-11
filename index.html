@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Список задач</title>
+</head>
+<body>
+    <header>
+        <h1>Список задач</h1>
+    </header>
+
+    <main>
+        <div class="add-task-section">
+            <div class="task-input">
+                <input type="text" class="description-task" placeholder="Запишите задачу">
+                <p class="task-length-limit">Не более 60 символов</p>
+            </div>
+            
+
+            <button class="add-task-button">+</button>
+        </div>
+
+        <h2>Задачи:</h2>
+        <div class="tasks-wrapper">Задач нет</div>
+
+        <div class="tasks-count">
+            <p class="active-tasks-count">Нет активных задач</p>
+            <p class="count-separator">|</p>
+            <p class="completed-tasks-count">Нет завершенных задач</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>2022 (c) <a href="https://github.com/DmitriiOS" target="_blank">Dmitrii Orlov</a> | Test task</p>
+
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
