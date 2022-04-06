@@ -61,7 +61,7 @@ function createTemplate(task, index) {
     return `
         <div class="task-item ${task.completed ? 'checked' : ''}">
             <div onclick="completeTask(${index})" class="description">${task.description}</div>
-            <button onclick="deleteTask(${index})" class="btn-delete">🗑</button>
+            <button onclick="deleteTask(${index})" class="btn-delete">DEL</button>
         </div>
     `
 }
